@@ -33,7 +33,7 @@ public class MainApplication {
 		System.out.println(tsgUsuarioDaoAPI.getTsgUsuarios());
 
 
-		//batch
+		//batch cambio en branch_1
 		long start = System.currentTimeMillis();
 		List<TsgUsuarios> lista = new ArrayList<TsgUsuarios>();
 		for(long i = 1; i <= 10000; i++) {
